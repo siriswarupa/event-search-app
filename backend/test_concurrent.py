@@ -3,9 +3,6 @@ import concurrent.futures
 
 URL = "http://127.0.0.1:8000/api/search/?query=159.62.125.136&start_time=1725850449&end_time=1725855086"
 
-# def send_request():
-#     response = requests.get(URL)
-#     print(f"Status Code: {response.status_code}, Response Length: {len(response.text)}")
 import time
 
 def send_request():
